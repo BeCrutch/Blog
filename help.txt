@@ -1,0 +1,19 @@
+*======== Architecture ========*
+blog/
+  |  app/
+  |  database/
+  |  public/
+       |  assets
+       |  css
+       |  img
+       |  js
+       |  index.php
+  |  resources/
+       |  sass
+       |  views
+
+*==============================*
+       
+       
+*========== Sructure ==========*
+*==============================*
