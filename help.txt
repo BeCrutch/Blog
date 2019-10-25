@@ -1,0 +1,35 @@
+local addres: blog.com.ua.local
+
+*======== Architecture ========*
+blog/
+  |  app/
+  |  database/
+  |  public/
+       |  assets
+       |  css
+       |  img
+       |  js
+       |  index.php
+  |  resources/
+       |  sass
+       |  views
+*==============================*      
+       
+*============ Pages ===========*
+Главня
+Категории
+Категория(со статьми)
+Статья
+*==============================*
+
+*========== dataBase ==========*
+categories
+    |  id
+    |  title
+articles
+    |  id
+    |  title
+    |  text
+    |  categorieID
+    |  pubDate
+*==============================*
