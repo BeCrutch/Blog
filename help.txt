@@ -1,3 +1,5 @@
+local addres: blog.com.ua.local
+
 *======== Architecture ========*
 blog/
   |  app/
@@ -21,7 +23,7 @@ blog/
 *==============================*
 
 *========== dataBase ==========*
-categoties
+categories
     |  id
     |  title
 articles
