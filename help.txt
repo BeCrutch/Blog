@@ -9,10 +9,13 @@ blog/
        |  css
        |  img
        |  js
+       |  components
+            |  header.php
+       |  pages
+       |    |  articles.php
        |  index.php
   |  resources/
        |  sass
-       |  views
 *==============================*      
        
 *============ Pages ===========*

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -135,6 +135,15 @@
 
 
     <!--  -->
+
+    <?php
+    #mysqli_close($connection);
+    $uri = urldecode(
+        parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
+    );
+
+    echo '<div>' . $uri . '</div>';
+    ?>
 
 </div>
 </body>

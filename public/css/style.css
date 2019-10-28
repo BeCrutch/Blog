@@ -1,0 +1,17 @@
+.connect, .not-connect {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.connect {
+    background-color: green;
+}
+
+.not-connect {
+    background-color: red;
+}

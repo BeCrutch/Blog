@@ -1,10 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title><?php echo $content['title']; ?></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
 <?php
 
-$connection = mysqli_connect('127.0.0.1','root','','blog');
+    include "../database/connection.php";
+    include('components/header.php');
 
-if( $connection == false ) {
-    echo 'not connection database';
-    exit();
-} else {
-    echo 'connection database';
-}
+?>
+
+<?php
+
+    mysqli_close($connection);
+
+?>
+
+</body>
+</html>
